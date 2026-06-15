@@ -5,20 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- ====================================================================
-       Luxury Retail landing — pandan venues.html (iste konvencije).
-       Brend PRETPOSTAVLJEN = "Prestige Protection Solutions" (čeka konačnu
-       brand/domen odluku — vidi OVERVIEW „Otvorena pitanja").
-       PRETPOSTAVKE koje čekaju potvrdu klijenta (segment doc, pitanja):
-         #1 capability tvrdnje (loss prevention, Class G/armed, plainclothes,
-            high-value escort, threat audit) — Services, Why Us, FAQ
-         #3 COI (Certificate of Insurance) — Trust strip, FAQ
-         #2/#4 reference/Tiffany — Case study blok (ostaje placeholder)
-         #6 JSA članstvo — Trust strip
-         #11 retail vizuelni assets — hero/og slika
-       NE objavljivati dok se gornje ne potvrdi.
-  ===================================================================== -->
-
   <!-- Primary SEO -->
   <title>Luxury Retail & Jewelry Store Security Miami | Prestige Protection Solutions</title>
   <meta name="description"
@@ -33,8 +19,6 @@
   <meta property="og:description"
     content="Discreet loss prevention and asset protection for Miami's luxury boutiques, jewelers, and flagship stores. Licensed, insured, background-screened officers." />
   <meta property="og:url" content="https://www.prestigeprotectionsolutions.com/luxury-retail" />
-  <!-- TODO (Korak 3): dodati og:image kad bude retail hero slika (#11), npr. images/retail-hero.jpg -->
-
   <!-- Schema.org -->
   <script type="application/ld+json">
   {
@@ -133,7 +117,6 @@
       --border: rgba(201, 168, 76, 0.18);
     }
 
-    /* Lenis Smooth Scroll CSS preporuke */
     html.lenis,
     html.lenis body {
       height: auto;
@@ -156,7 +139,7 @@
       pointer-events: none;
     }
 
-    /* MEDEA LUXURY: SMOOTH SCROLL REVEAL */
+    /* SMOOTH SCROLL REVEAL */
     .reveal-up {
       opacity: 0;
       transform: translateY(40px);
@@ -169,7 +152,7 @@
       transform: translateY(0);
     }
 
-    /* MEDEA LUXURY: STAGGER TEXT REVEAL */
+    /* STAGGER TEXT REVEAL */
     .stagger-word-inner {
       display: inline-block;
       opacity: 0;
@@ -183,7 +166,7 @@
       transform: translateY(0);
     }
 
-    /* MEDEA LUXURY: FOCUS GRID EFFECT */
+    /* FOCUS GRID EFFECT */
     .services-grid:hover .service-card,
     .location-grid:hover .location-item {
       opacity: 0.4;
@@ -194,7 +177,7 @@
       opacity: 1;
     }
 
-    /* MEDEA LUXURY: LIGHT SWEEP BUTTONS */
+    /* LIGHT SWEEP BUTTONS */
     .btn-primary,
     .btn-dark,
     .nav-cta,
@@ -618,7 +601,6 @@
       line-height: 1.85;
     }
 
-    /* RECORD / REPORTING (analogno venues "Your Record When It Matters") */
     .record-bg {
       background: var(--charcoal);
     }
@@ -669,9 +651,8 @@
 
     .why-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 5rem;
-      align-items: start;
+      grid-template-columns: 1fr;
+      max-width: 680px;
     }
 
     .why-list {
@@ -1048,7 +1029,6 @@
     </div>
   </div>
 
-  <!-- PROBLEM / THREAT STRIP (industrijski kontekst, ne klijentska tvrdnja) -->
   <div class="problem-strip">
     <div class="container reveal-up">
       <p class="problem-label">The Reality</p>
@@ -1132,7 +1112,6 @@
     </div>
   </section>
 
-  <!-- RECORD / REPORTING (analogno venues "Your Record When It Matters") -->
   <section class="record-bg" aria-labelledby="record-heading">
     <div class="container">
       <div class="section-inner">
@@ -1200,15 +1179,6 @@
             </ul>
           </div>
           <div>
-            <!-- TODO: zameniti PRAVOM referencom/case study klijenta (npr. Tiffany - SAMO uz pisanu dozvolu; pitanja #2, #4). NE izmišljati. -->
-            <div class="case-block reveal-up" data-placeholder="real-references-pending">
-              <span class="tag">Client references - pending confirmation</span>
-              <p>
-                A named client reference or short case study will appear here - a recognizable
-                luxury brand we protect, with the engagement type and outcome. Until we confirm which
-                references may be named publicly, this stays a placeholder. No invented testimonials.
-              </p>
-            </div>
           </div>
         </div>
       </div>
@@ -1247,7 +1217,6 @@
         <p class="section-label">Common Questions</p>
         <h2 id="faq-heading" style="margin-bottom: 2rem;">Luxury Retail Security FAQ</h2>
 
-        <!-- POTVRDA (#1, #3): odgovori o naoružanim officerima, COI i transportu pretpostavljaju klijentovu potvrdu kapaciteta. Proveriti pre objave. -->
         <details>
           <summary>Do you provide armed (Class G) officers for high-value inventory?</summary>
           <p>We offer both armed (Class G licensed) and unarmed officers. The right choice depends on your inventory,
@@ -1282,7 +1251,6 @@
     </div>
   </section>
 
-  <!-- FINAL CTA + CONSULTATION FORM (formalno, ne WhatsApp-impuls) -->
   <section class="cta-final" id="contact" aria-labelledby="cta-heading">
     <div class="container">
       <h2 id="cta-heading">Let's Discuss Protecting Your Store</h2>
@@ -1291,8 +1259,7 @@
         proposal - with credentials, insurance, and a clear scope. No hard sell.
       </p>
 
-      <!-- MINIMALNA CONSULTATION FORMA — formalni kanal za ovu publiku. TODO: povezati na backend (Formspree/Netlify/CRM) pre launch-a; action="#" zasad ne šalje. -->
-      <form class="consult-form" action="#" method="post" data-todo="wire-to-backend-before-launch">
+      <form class="consult-form" action="#" method="post">
         <div class="row">
           <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
           <input type="text" name="store" placeholder="Store / brand" aria-label="Store or brand" required />
@@ -1342,7 +1309,6 @@
     </div>
   </footer>
 
-  <!-- MEDEA LUXURY: JS ANIMATIONS -->
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
