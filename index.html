@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ====================================================================
+       Luxury Retail landing — pandan venues.html (iste konvencije).
+       Brend PRETPOSTAVLJEN = "Prestige Protection Solutions" (čeka konačnu
+       brand/domen odluku — vidi OVERVIEW „Otvorena pitanja").
+       PRETPOSTAVKE koje čekaju potvrdu klijenta (segment doc, pitanja):
+         #1 capability tvrdnje (loss prevention, Class G/armed, plainclothes,
+            high-value escort, threat audit) — Services, Why Us, FAQ
+         #3 COI (Certificate of Insurance) — Trust strip, FAQ
+         #2/#4 reference/Tiffany — Case study blok (ostaje placeholder)
+         #6 JSA članstvo — Trust strip
+         #11 retail vizuelni assets — hero/og slika
+       NE objavljivati dok se gornje ne potvrdi.
+  ===================================================================== -->
+
+  <!-- Primary SEO -->
+  <title>Luxury Retail & Jewelry Store Security Miami | Prestige Protection Solutions</title>
+  <meta name="description"
+    content="Discreet, hospitality-trained loss prevention and asset protection for Miami's luxury boutiques, jewelers, and flagship stores. Licensed, insured, background-screened officers." />
+  <meta name="keywords"
+    content="luxury retail security Miami, jewelry store security Miami, loss prevention Miami, asset protection Miami, boutique security Miami, flagship store security, Bal Harbour security, Design District retail security, organized retail crime Miami, South Florida retail security" />
+  <link rel="canonical" href="https://www.prestigeprotectionsolutions.com/luxury-retail" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Luxury Retail & Jewelry Store Security Miami | Prestige Protection Solutions" />
+  <meta property="og:description"
+    content="Discreet loss prevention and asset protection for Miami's luxury boutiques, jewelers, and flagship stores. Licensed, insured, background-screened officers." />
+  <meta property="og:url" content="https://www.prestigeprotectionsolutions.com/luxury-retail" />
+  <!-- TODO (Korak 3): dodati og:image kad bude retail hero slika (#11), npr. images/retail-hero.jpg -->
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SecurityService",
+    "name": "Prestige Protection Solutions",
+    "description": "Luxury retail, jewelry store and boutique security, loss prevention and asset protection in Miami, FL",
+    "url": "https://www.prestigeprotectionsolutions.com",
+    "telephone": "+17869297088",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Miami",
+      "addressRegion": "FL",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Miami", "Bal Harbour", "Miami Design District", "Aventura", "Brickell", "South Beach", "Coral Gables", "Sunny Isles"],
+    "serviceType": ["Luxury Retail Security", "Jewelry Store Security", "Loss Prevention", "Asset Protection", "Boutique Security", "VIP Client Protection", "Threat Assessment"]
+  }
+  </script>
+
+  <!-- Schema.org FAQPage (sinhronizovan sa vidljivim FAQ) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you provide armed (Class G) officers for high-value inventory?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We offer both armed (Class G licensed) and unarmed officers. The right choice depends on your inventory, location, and environment, and we'll advise based on an assessment of your store."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you provide a Certificate of Insurance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. A Certificate of Insurance is available on request for our retail engagements, naming your store or property as required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do officers work plainclothes or uniformed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both. We match the presence to your brand and environment, from visible uniformed deterrence to discreet plainclothes loss prevention on the floor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you integrate with our existing loss-prevention team?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Our officers coordinate with in-house loss prevention, follow your protocols, and provide written reporting that fits your existing process."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you cover high-value transport and open/close escort?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Secure opening and closing procedures and protected escort of high-value items are available where required. We build these into the coverage plan after a site assessment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are your officers trained for luxury retail environments specifically?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Beyond Florida licensing, our officers are trained in loss prevention, organized-retail-crime awareness, de-escalation, and hospitality-grade guest interaction, so security never disrupts the client experience."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --gold: #BE8055;
+      --gold-light: #BE8055;
+      --black: #0A0A0A;
+      --charcoal: #161616;
+      --charcoal-2: #1E1E1E;
+      --off-white: #F0EEE9;
+      --muted: #b6b6b6;
+      --border: rgba(201, 168, 76, 0.18);
+    }
+
+    /* Lenis Smooth Scroll CSS preporuke */
+    html.lenis,
+    html.lenis body {
+      height: auto;
+      width: 100vw;
+    }
+
+    .lenis.lenis-smooth {
+      scroll-behavior: auto !important;
+    }
+
+    .lenis.lenis-smooth [data-lenis-prevent] {
+      overscroll-behavior: contain;
+    }
+
+    .lenis.lenis-stopped {
+      overflow: hidden;
+    }
+
+    .lenis.lenis-smooth iframe {
+      pointer-events: none;
+    }
+
+    /* MEDEA LUXURY: SMOOTH SCROLL REVEAL */
+    .reveal-up {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.85s cubic-bezier(0.25, 1, 0.5, 1), transform 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+      will-change: opacity, transform;
+    }
+
+    .reveal-up.reveal-up--active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* MEDEA LUXURY: STAGGER TEXT REVEAL */
+    .stagger-word-inner {
+      display: inline-block;
+      opacity: 0;
+      transform: translateY(110%);
+      transition: opacity 0.85s cubic-bezier(0.25, 1, 0.5, 1), transform 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+      will-change: opacity, transform;
+    }
+
+    .stagger-word-inner.stagger-active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* MEDEA LUXURY: FOCUS GRID EFFECT */
+    .services-grid:hover .service-card,
+    .location-grid:hover .location-item {
+      opacity: 0.4;
+    }
+
+    .services-grid .service-card:hover,
+    .location-grid .location-item:hover {
+      opacity: 1;
+    }
+
+    /* MEDEA LUXURY: LIGHT SWEEP BUTTONS */
+    .btn-primary,
+    .btn-dark,
+    .nav-cta,
+    .consult-form button {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-primary::after,
+    .btn-dark::after,
+    .nav-cta::after,
+    .consult-form button::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -150%;
+      width: 150%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0) 100%);
+      transform: skewX(-25deg);
+      animation: lightSweep var(--sweep-dur, 3.5s) infinite linear;
+      pointer-events: none;
+    }
+
+    @keyframes lightSweep {
+      0% {
+        left: -150%;
+      }
+
+      50% {
+        left: 200%;
+      }
+
+      100% {
+        left: 200%;
+      }
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: var(--black);
+      color: var(--off-white);
+      line-height: 1.7;
+    }
+
+    /* CONTAINER FOR 1440px ALIGNMENT */
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      width: 100%;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      background: rgba(10, 10, 10, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 1.1rem;
+      padding-bottom: 1.1rem;
+    }
+
+    .logo {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 0.76rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-family: 'Arial', sans-serif;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-cta {
+      background: var(--gold);
+      color: var(--black);
+      padding: 0.55rem 1.3rem;
+      font-size: 0.73rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'Arial', sans-serif;
+      font-weight: 700;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0 0 5rem;
+      position: relative;
+      overflow: hidden;
+      background: var(--black);
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(10, 10, 10, 0.35) 0%, rgba(10, 10, 10, 0.78) 60%, var(--black) 100%), url('images/retail-hero.jpg') center/cover no-repeat;
+      transform: scale(1.15);
+      will-change: transform;
+    }
+
+    @media (min-width: 901px) {
+      .hero-bg {
+        background:
+          linear-gradient(to bottom, transparent 80%, var(--black) 100%),
+          linear-gradient(to right, rgba(10, 10, 10, 0.8) 0%, rgba(10, 10, 10, 0.5) 100%),
+          url('images/retail-hero.jpg') center/cover no-repeat;
+      }
+    }
+
+    .hero-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      position: relative;
+      z-index: 2;
+      flex-grow: 1;
+      padding-top: 8rem;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 880px;
+    }
+
+    .eyebrow {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+
+    h1 {
+      font-size: clamp(1.95rem, 4vw, 3rem);
+      line-height: 1.14;
+      font-weight: 400;
+      margin-bottom: 1.4rem;
+      text-wrap: balance;
+    }
+
+    h1 strong {
+      color: var(--gold);
+      font-weight: 400;
+    }
+
+    .hero-sub {
+      font-family: 'Arial', sans-serif;
+      font-size: 1rem;
+      color: #bbb;
+      max-width: 600px;
+      margin-bottom: 2.2rem;
+      line-height: 1.8;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--black);
+      padding: 0.9rem 2.2rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'Arial', sans-serif;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+    }
+
+    .btn-ghost {
+      display: inline-block;
+      color: var(--off-white);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 0.9rem 2.2rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'Arial', sans-serif;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .hero-note {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.78rem;
+      color: #9a9a9a;
+      margin-top: 1rem;
+      letter-spacing: 0.04em;
+    }
+
+    /* TRUST STRIP */
+    .trust-strip {
+      background: var(--black);
+      border-bottom: 1px solid var(--border);
+      padding: 1.4rem 0;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #cfcfcf;
+      width: 100%;
+    }
+
+    .trust-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2.5rem;
+      width: 100%;
+    }
+
+    .trust-strip div {
+      display: flex;
+      align-items: center;
+    }
+
+    .trust-strip span {
+      color: var(--gold);
+      margin-right: 0.5rem;
+    }
+
+    /* PROBLEM / THREAT STRIP */
+    .problem-strip {
+      background: var(--charcoal);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 0;
+    }
+
+    .problem-label {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .problem-lead {
+      font-family: 'Georgia', serif;
+      font-size: clamp(1.4rem, 2.6vw, 2rem);
+      line-height: 1.25;
+      color: var(--off-white);
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 1.1rem;
+      text-wrap: balance;
+    }
+
+    .problem-support {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.95rem;
+      color: #aaa;
+      line-height: 1.8;
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 5.5rem 0;
+    }
+
+    .section-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .section-label {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.28em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+
+    h2 {
+      font-size: clamp(1.7rem, 2.8vw, 2.5rem);
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+
+    .divider {
+      width: 44px;
+      height: 1px;
+      background: var(--gold);
+      margin: 1rem 0 2rem;
+    }
+
+    .intro-text {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.95rem;
+      color: #aaa;
+      max-width: 640px;
+      line-height: 1.85;
+    }
+
+    /* SERVICES */
+    .services-bg {
+      background: var(--charcoal);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      margin-top: 3rem;
+    }
+
+    .service-card {
+      background: var(--black);
+      padding: 2.2rem;
+      border-top: 2px solid transparent;
+      transition: border-color 0.25s ease, opacity 0.4s ease;
+    }
+
+    .service-card:hover {
+      border-color: var(--gold);
+    }
+
+    .service-num {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .service-card h3 {
+      font-size: 1.05rem;
+      font-weight: 400;
+      margin-bottom: 0.65rem;
+    }
+
+    .service-card p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.83rem;
+      color: #888;
+      line-height: 1.75;
+    }
+
+    /* THE LOOK */
+    .look-bg {
+      background: var(--black);
+    }
+
+    .look-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .look-card {
+      background: var(--charcoal-2);
+      border-left: 3px solid var(--gold);
+      padding: 2.5rem;
+    }
+
+    .look-card p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.92rem;
+      color: #bbb;
+      line-height: 1.85;
+    }
+
+    /* RECORD / REPORTING (analogno venues "Your Record When It Matters") */
+    .record-bg {
+      background: var(--charcoal);
+    }
+
+    /* PROCESS */
+    .steps-bg {
+      background: var(--black);
+    }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      margin-top: 3rem;
+    }
+
+    .step {
+      padding: 2rem;
+      background: var(--charcoal);
+    }
+
+    .step-num {
+      font-family: 'Arial', sans-serif;
+      font-size: 2.5rem;
+      color: rgba(201, 168, 76, 0.15);
+      display: block;
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+
+    .step h3 {
+      font-size: 0.95rem;
+      font-weight: 400;
+      margin-bottom: 0.6rem;
+    }
+
+    .step p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.82rem;
+      color: #909090;
+      line-height: 1.7;
+    }
+
+    /* WHY US */
+    .why-bg {
+      background: var(--charcoal);
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: start;
+    }
+
+    .why-list {
+      list-style: none;
+      margin-top: 0.5rem;
+    }
+
+    .why-list li {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.88rem;
+      padding: 0.95rem 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 1rem;
+      color: #bbb;
+      align-items: flex-start;
+    }
+
+    .why-list li::before {
+      content: '✓';
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .case-block {
+      background: var(--black);
+      border: 1px dashed var(--border);
+      padding: 2.5rem;
+    }
+
+    .case-block .tag {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.62rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .case-block p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.9rem;
+      color: #8c8c8c;
+      line-height: 1.8;
+    }
+
+    /* LOCATIONS */
+    .locations-bg {
+      background: var(--black);
+    }
+
+    .location-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      margin-top: 3rem;
+    }
+
+    .location-item {
+      background: var(--charcoal);
+      padding: 1.5rem;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      color: #999;
+      letter-spacing: 0.05em;
+      border-left: 2px solid transparent;
+      transition: border-color 0.2s ease, color 0.2s ease, opacity 0.4s ease;
+    }
+
+    .location-item:hover {
+      border-color: var(--gold);
+      color: var(--off-white);
+    }
+
+    /* FAQ */
+    .faq-bg {
+      background: var(--charcoal);
+    }
+
+    .faq-inner {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+      font-size: 0.95rem;
+      padding: 1.4rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Georgia', serif;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: '+';
+      color: var(--gold);
+      font-size: 1.3rem;
+      font-family: 'Arial', sans-serif;
+    }
+
+    details[open] summary::after {
+      content: '−';
+    }
+
+    details p {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.86rem;
+      color: #888;
+      padding-bottom: 1.4rem;
+      line-height: 1.8;
+    }
+
+    /* FINAL CTA + CONSULTATION FORM */
+    .cta-final {
+      background: var(--gold);
+      color: var(--black);
+      text-align: center;
+      padding: 5rem 0;
+    }
+
+    .cta-final h2 {
+      font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+      color: var(--black);
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-final p.lead {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.95rem;
+      margin: 0 auto 2rem;
+      max-width: 560px;
+      color: rgba(0, 0, 0, 0.75);
+    }
+
+    .consult-form {
+      max-width: 520px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .consult-form .row {
+      display: flex;
+      gap: 0.7rem;
+    }
+
+    .consult-form .row>* {
+      flex: 1;
+    }
+
+    .consult-form input,
+    .consult-form textarea {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      margin-bottom: 0.7rem;
+      border: 1px solid rgba(0, 0, 0, 0.35);
+      background: rgba(255, 255, 255, 0.9);
+      font-family: 'Arial', sans-serif;
+      font-size: 0.9rem;
+      color: var(--black);
+    }
+
+    .consult-form input::placeholder,
+    .consult-form textarea::placeholder {
+      color: #555;
+    }
+
+    .consult-form input:focus,
+    .consult-form textarea:focus {
+      outline: none;
+      border-color: var(--black);
+    }
+
+    .consult-form button {
+      width: 100%;
+      background: var(--black);
+      color: var(--gold);
+      padding: 0.9rem;
+      border: none;
+      cursor: pointer;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+
+    .consult-form button:hover {
+      background: #1a1a1a;
+    }
+
+    .cta-alt {
+      margin-top: 1.6rem;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    .cta-alt a {
+      color: var(--black);
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    .cta-meta {
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: rgba(0, 0, 0, 0.55);
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--charcoal);
+      border-top: 1px solid var(--border);
+      padding: 2.5rem 0;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.73rem;
+      color: var(--muted);
+      width: 100%;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      width: 100%;
+    }
+
+    .footer-logo {
+      color: var(--gold);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    footer a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+
+      .nav-inner {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      section {
+        padding: 4rem 0;
+      }
+
+      .hero {
+        padding: 0 0 4rem;
+      }
+
+      .problem-strip {
+        padding: 2.5rem 0;
+      }
+
+      .trust-strip {
+        padding: 1.2rem 0;
+      }
+
+      .trust-inner {
+        gap: 1rem 1.5rem;
+        font-size: 0.66rem;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .look-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .steps-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .why-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .location-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .consult-form .row {
+        flex-direction: column;
+        gap: 0;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="/" class="logo">Prestige Protection Solutions</a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#coverage">Coverage</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Request a Consultation</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-content reveal-up">
+        <p class="eyebrow">Miami Luxury Retail &amp; Asset Protection</p>
+        <h1>Security Your Clients Never Notice.<br>Threats Always Do.</h1>
+        <p class="hero-sub">
+          Hospitality-trained officers and discreet loss prevention for high-value retail,
+          protecting your merchandise, your clients, and your reputation without disrupting the room.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Request a Confidential Consultation</a>
+          <a href="tel:+17869297088" class="btn-ghost">Call (786) 929-7088</a>
+        </div>
+        <p class="hero-note">Tailored coverage for your store, your inventory, your brand.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- TRUST STRIP -->
+  <div class="trust-strip" aria-label="Credentials">
+    <div class="container trust-inner">
+      <div><span>&#9670;</span> Florida Licensed B-3500411</div>
+      <div><span>&#9670;</span> Insured &middot; COI on Request</div>
+      <div><span>&#9670;</span> Background-Screened Officers</div>
+      <div><span>&#9670;</span> Class D &amp; G Officers</div>
+    </div>
+  </div>
+
+  <!-- PROBLEM / THREAT STRIP (industrijski kontekst, ne klijentska tvrdnja) -->
+  <div class="problem-strip">
+    <div class="container reveal-up">
+      <p class="problem-label">The Reality</p>
+      <p class="problem-lead">The most damaging losses happen in under 90 seconds.</p>
+      <p class="problem-support">
+        Organized retail crime is rising, and Miami is a known target for transnational crews.
+        Real protection isn't a guard at the door. It's trained loss prevention and a discreet
+        presence that protects your inventory and your clients.
+      </p>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services-bg" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-inner">
+        <p class="section-label">What We Do</p>
+        <h2 id="services-heading">Protection Built for Luxury Retail</h2>
+        <div class="divider"></div>
+        <p class="intro-text">
+          From the sales floor to the stockroom, coverage is delivered by officers trained for
+          high-end hospitality - protection that secures high-value goods without interrupting
+          the experience your clients expect.
+        </p>
+        <div class="services-grid">
+          <article class="service-card reveal-up"><span class="service-num">01</span>
+            <h3>Loss Prevention &amp; Floor Coverage</h3>
+            <p>Trained officers who read the floor, recognize organized-theft patterns, and intervene before a loss
+              occurs.</p>
+          </article>
+          <article class="service-card reveal-up"><span class="service-num">02</span>
+            <h3>Asset &amp; Inventory Protection</h3>
+            <p>Dedicated protection for high-value merchandise, display cases, and back-of-house, tailored to your store
+              layout.</p>
+          </article>
+          <article class="service-card reveal-up"><span class="service-num">03</span>
+            <h3>Plainclothes &amp; Uniformed Officers</h3>
+            <p>Visible deterrence or discreet plainclothes presence - matched to your environment and brand.</p>
+          </article>
+          <article class="service-card reveal-up"><span class="service-num">04</span>
+            <h3>Open / Close &amp; High-Value Escort</h3>
+            <p>Secure opening and closing procedures and protected transport of high-value items when required.</p>
+          </article>
+          <article class="service-card reveal-up"><span class="service-num">05</span>
+            <h3>VIP Client Protection</h3>
+            <p>Discreet protection for high-net-worth clients and private shopping appointments.</p>
+          </article>
+          <article class="service-card reveal-up"><span class="service-num">06</span>
+            <h3>Threat Assessment &amp; Audits</h3>
+            <p>Vulnerability walkthroughs and operational audits that strengthen your store's overall security posture.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE LOOK -->
+  <section class="look-bg" aria-labelledby="look-heading">
+    <div class="container">
+      <div class="section-inner">
+        <div class="look-grid">
+          <div>
+            <p class="section-label">Presence, Not Disruption</p>
+            <h2 id="look-heading">Officers Dressed for Your Store</h2>
+            <div class="divider"></div>
+            <p class="intro-text">
+              In luxury retail, security is part of the experience. Our officers are presentable,
+              composed, and trained in guest interaction - dressed for your room, never tactical.
+            </p>
+          </div>
+          <div class="look-card reveal-up">
+            <p>
+              "The look" matters as much as the coverage. Officers in appropriate attire,
+              customer-service trained, protecting the floor while preserving the calm, elevated
+              atmosphere your clients expect.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECORD / REPORTING (analogno venues "Your Record When It Matters") -->
+  <section class="record-bg" aria-labelledby="record-heading">
+    <div class="container">
+      <div class="section-inner">
+        <p class="section-label">More Than Presence</p>
+        <h2 id="record-heading">A Record That Protects You</h2>
+        <div class="divider"></div>
+        <p class="intro-text" style="max-width: 780px;">
+          When a loss, an incident, or an insurance claim arises, documentation is everything.
+          Our officers provide written reporting after coverage - what happened, who was involved,
+          and the actions taken - and coordinate with your loss-prevention team and law enforcement
+          when required. Licensed, trained, and documented protection that still stands up long after
+          the incident.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="steps-bg" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section-inner">
+        <p class="section-label">Getting Started</p>
+        <h2 id="process-heading">A Considered, Confidential Process</h2>
+        <div class="divider"></div>
+        <p class="intro-text">Professional and discreet, without unnecessary back and forth.</p>
+        <div class="steps-grid">
+          <div class="step reveal-up"><span class="step-num">01</span>
+            <h3>Consultation</h3>
+            <p>A confidential conversation about your store, your inventory, and your concerns.</p>
+          </div>
+          <div class="step reveal-up"><span class="step-num">02</span>
+            <h3>Assessment</h3>
+            <p>A site and vulnerability walkthrough to identify risk and the right coverage.</p>
+          </div>
+          <div class="step reveal-up"><span class="step-num">03</span>
+            <h3>Proposal &amp; COI</h3>
+            <p>A clear proposal with credentials, insurance, and reporting standards.</p>
+          </div>
+          <div class="step reveal-up"><span class="step-num">04</span>
+            <h3>Deployment</h3>
+            <p>Officers on post, briefed and presentable, with written reporting.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US + CASE STUDY -->
+  <section class="why-bg" id="why-us" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="section-inner">
+        <div class="why-grid">
+          <div>
+            <p class="section-label">Why Prestige Protection Solutions</p>
+            <h2 id="why-heading">Credentials That Stand Up to Scrutiny</h2>
+            <div class="divider"></div>
+            <ul class="why-list">
+              <li>Florida-licensed officers, Class D and Class G (armed, where appropriate)</li>
+              <li>Background-checked, drug-tested, and trained before their first shift</li>
+              <li>Fully insured, with a Certificate of Insurance available on request</li>
+              <li>Real experience protecting Miami's luxury retail environments</li>
+              <li>Officers presentable for the floor - never tactical in a luxury setting</li>
+              <li>Written reporting and integration with your existing loss-prevention team</li>
+              <li>One-time event coverage or ongoing retainer protection</li>
+            </ul>
+          </div>
+          <div>
+            <!-- TODO: zameniti PRAVOM referencom/case study klijenta (npr. Tiffany - SAMO uz pisanu dozvolu; pitanja #2, #4). NE izmišljati. -->
+            <div class="case-block reveal-up" data-placeholder="real-references-pending">
+              <span class="tag">Client references - pending confirmation</span>
+              <p>
+                A named client reference or short case study will appear here - a recognizable
+                luxury brand we protect, with the engagement type and outcome. Until we confirm which
+                references may be named publicly, this stays a placeholder. No invented testimonials.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COVERAGE -->
+  <section class="locations-bg" id="coverage" aria-labelledby="coverage-heading">
+    <div class="container">
+      <div class="section-inner">
+        <p class="section-label">Coverage Area</p>
+        <h2 id="coverage-heading">Where We Work</h2>
+        <div class="divider"></div>
+        <p class="intro-text">
+          Across South Florida's premier luxury retail destinations, from Bal Harbour and the Design
+          District to Aventura and Brickell, throughout Miami-Dade.
+        </p>
+        <div class="location-grid">
+          <div class="location-item">Bal Harbour</div>
+          <div class="location-item">Miami Design District</div>
+          <div class="location-item">Aventura</div>
+          <div class="location-item">Brickell</div>
+          <div class="location-item">South Beach</div>
+          <div class="location-item">Coral Gables</div>
+          <div class="location-item">Sunny Isles</div>
+          <div class="location-item">Downtown Miami</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-bg" id="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="faq-inner">
+        <p class="section-label">Common Questions</p>
+        <h2 id="faq-heading" style="margin-bottom: 2rem;">Luxury Retail Security FAQ</h2>
+
+        <!-- POTVRDA (#1, #3): odgovori o naoružanim officerima, COI i transportu pretpostavljaju klijentovu potvrdu kapaciteta. Proveriti pre objave. -->
+        <details>
+          <summary>Do you provide armed (Class G) officers for high-value inventory?</summary>
+          <p>We offer both armed (Class G licensed) and unarmed officers. The right choice depends on your inventory,
+            location, and environment, and we'll advise based on an assessment of your store.</p>
+        </details>
+        <details>
+          <summary>Can you provide a Certificate of Insurance?</summary>
+          <p>Yes. A Certificate of Insurance is available on request for our retail engagements, naming your store or
+            property as required.</p>
+        </details>
+        <details>
+          <summary>Do officers work plainclothes or uniformed?</summary>
+          <p>Both. We match the presence to your brand and environment, from visible uniformed deterrence to discreet
+            plainclothes loss prevention on the floor.</p>
+        </details>
+        <details>
+          <summary>Can you integrate with our existing loss-prevention team?</summary>
+          <p>Yes. Our officers coordinate with in-house loss prevention, follow your protocols, and provide written
+            reporting that fits your existing process.</p>
+        </details>
+        <details>
+          <summary>Do you cover high-value transport and open/close escort?</summary>
+          <p>Secure opening and closing procedures and protected escort of high-value items are available where required.
+            We build these into the coverage plan after a site assessment.</p>
+        </details>
+        <details>
+          <summary>Are your officers trained for luxury retail environments specifically?</summary>
+          <p>Yes. Beyond Florida licensing, our officers are trained in loss prevention, organized-retail-crime awareness,
+            de-escalation, and hospitality-grade guest interaction, so security never disrupts the client experience.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA + CONSULTATION FORM (formalno, ne WhatsApp-impuls) -->
+  <section class="cta-final" id="contact" aria-labelledby="cta-heading">
+    <div class="container">
+      <h2 id="cta-heading">Let's Discuss Protecting Your Store</h2>
+      <p class="lead">
+        Tell us about your store and your concerns. You'll get a confidential, straightforward
+        proposal - with credentials, insurance, and a clear scope. No hard sell.
+      </p>
+
+      <!-- MINIMALNA CONSULTATION FORMA — formalni kanal za ovu publiku. TODO: povezati na backend (Formspree/Netlify/CRM) pre launch-a; action="#" zasad ne šalje. -->
+      <form class="consult-form" action="#" method="post" data-todo="wire-to-backend-before-launch">
+        <div class="row">
+          <input type="text" name="name" placeholder="Your name" aria-label="Your name" required />
+          <input type="text" name="store" placeholder="Store / brand" aria-label="Store or brand" required />
+        </div>
+        <div class="row">
+          <input type="email" name="email" placeholder="Email" aria-label="Email" required />
+          <input type="tel" name="phone" placeholder="Phone" aria-label="Phone" required />
+        </div>
+        <textarea name="message" rows="3" placeholder="Briefly, what do you need covered? (optional)"
+          aria-label="Message"></textarea>
+        <button type="submit">Request a Confidential Consultation</button>
+      </form>
+
+      <p class="cta-alt">
+        Prefer to talk now? Call <a href="tel:+17869297088">(786) 929-7088</a>
+        or email <a href="mailto:info@guardanddrive.com">info@guardanddrive.com</a>
+      </p>
+      <p class="cta-meta">
+        Florida License B-3500411 &nbsp;&middot;&nbsp; Insured &middot; COI on request
+        &nbsp;&middot;&nbsp; Capability statement available on request
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-logo">Prestige Protection Solutions</div>
+        <div style="margin-top: 0.4rem;">
+          <a href="tel:+17869297088">(786) 929-7088</a>
+          &nbsp;&middot;&nbsp;
+          <a href="mailto:info@guardanddrive.com">info@guardanddrive.com</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="/luxury-retail">Luxury Retail Security</a>
+        <a href="/venues">Venue Security</a>
+        <a href="/executive-protection">Executive Protection</a>
+        <a href="/vip-chauffeur">VIP Chauffeur</a>
+        <a href="/careers">Careers</a>
+      </div>
+      <div>
+        © 2026 Prestige Protection Solutions. All rights reserved.<br>
+        Florida License <span style="color: var(--gold);">B-3500411</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MEDEA LUXURY: JS ANIMATIONS -->
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // 1. Lenis Smooth Scroll
+      const lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        lerp: 0.08,
+        smoothWheel: true,
+        wheelMultiplier: 1,
+      });
+
+      // 2. Hero Parallax
+      const heroBg = document.querySelector('.hero-bg');
+      if (heroBg) {
+        lenis.on('scroll', (e) => {
+          const y = e.scroll;
+          const vh = window.innerHeight;
+          if (y <= vh) {
+            const progress = y / vh;
+            const scale = 1.15 - (progress * 0.1);
+            const yPos = y * 0.35;
+            heroBg.style.transform = `translate3d(0, ${yPos}px, 0) scale(${scale})`;
+          }
+        });
+      }
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+      requestAnimationFrame(raf);
+
+      // Smooth scroll za anchor linkove
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            lenis.scrollTo(target);
+          }
+        });
+      });
+
+      // 3. Smooth Scroll Reveal Observer
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('reveal-up--active');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: "0px", threshold: 0.15 });
+      document.querySelectorAll('.reveal-up').forEach(el => revealObserver.observe(el));
+
+      // 4. Stagger Text Reveal
+      const staggerTargets = document.querySelectorAll('.section-label, h2');
+      staggerTargets.forEach(el => {
+        const text = el.innerText.trim();
+        if (!text) return;
+        const words = text.split(/\s+/);
+        el.innerHTML = '';
+        words.forEach((word, index) => {
+          const wrapper = document.createElement('span');
+          wrapper.style.display = 'inline-block';
+          wrapper.style.overflow = 'hidden';
+          wrapper.style.verticalAlign = 'bottom';
+          if (index < words.length - 1) {
+            wrapper.innerHTML = `<span class="stagger-word-inner" style="transition-delay: ${index * 0.045}s">${word}</span>&nbsp;`;
+          } else {
+            wrapper.innerHTML = `<span class="stagger-word-inner" style="transition-delay: ${index * 0.045}s">${word}</span>`;
+          }
+          el.appendChild(wrapper);
+        });
+      });
+      const staggerObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const inners = entry.target.querySelectorAll('.stagger-word-inner');
+            inners.forEach(inner => inner.classList.add('stagger-active'));
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: "0px", threshold: 0.15 });
+      staggerTargets.forEach(el => staggerObserver.observe(el));
+
+      // 5. Light Sweep Duration Calculation
+      const sweepButtons = document.querySelectorAll('.btn-primary, .btn-dark, .nav-cta, .consult-form button');
+      sweepButtons.forEach(btn => {
+        const width = btn.offsetWidth;
+        const sweepTime = 1.2 + (width / 250);
+        const totalCycle = sweepTime * 2.5;
+        btn.style.setProperty('--sweep-dur', `${totalCycle}s`);
+      });
+    });
+  </script>
+
+</body>
+
+</html>
